@@ -1,0 +1,34 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+
+'' the order is about the notion of analyzes 
+'' in which your equations are useful in business
+
+Public Sub Order(ByRef notion As Chines, ByRef analyzes As City, ByRef business As Done)
+  
+  Let notion = chines.light
+  Let analyzes = city.Gods
+  Let business = done.friend
+  
+  If notion.light Then 
+    Print "your position on the notion of concordance"
+  Else 
+  notion.light  
+  Endif
+  
+  If analyzes.Gods Then 
+     Print "thank god for the blessings"
+  Else 
+  analyzes.Gods   
+  Endif
+  
+  If business.friend Then 
+     Print "your congratulatory rules"
+  Else 
+  business.friend   
+  Endif
+  
+End

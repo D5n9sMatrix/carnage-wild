@@ -1,0 +1,41 @@
+' Gambas class file
+
+Export
+Create Static
+
+'' This light is about easy to climb in formation
+'' The light template makes the training level
+'' be abstract about numerical consolidation basis
+'' see your situation in relation to numerical scalars
+'' your classes are about numeric reporting.
+
+Public Sub light(ByRef easy As Array, ByRef reports As Array, ByRef form As Array)
+  
+  Let easy = [1, 2, 3] + [4, 5, 6] + [7, 8, 9] + [0, 1, 2]
+  Let level = [0, 1, 2] + [7, 8, 9] + [4, 5, 6] + [1, 2, 3]
+  Let form = [7, 8, 9] + [4, 5, 6] + [1, 2, 3] + [0, 1, 2]
+  
+  '' male goat yes if sir
+  If easy.Count Then 
+     Print "easy extremely easy for you and everyone to sing along."
+  Else 
+  easy.Count   
+  Endif
+  
+  '' calling the male goat
+  If level.Count Then 
+    Print "if you want to smile sing like this, if you want to talk smile about me."
+  Else 
+  level.Count  
+  Endif
+  
+  '' the gate is open
+  If form.Count Then 
+    Print "if you know anything let me know, birds of a feather, knowing never is too much"
+  Else 
+  form.Count  
+  Endif
+  
+  
+End
+

@@ -1,0 +1,130 @@
+Software Installation Microsoft about Mavel in form vscode
+
+Software installation refers to the large scale distribution of software and application on an organizational level. Administrators are frequently bombarded with numerous software installation requests, and have to validate those requests individually and authorize the software installation. Traditionally, a software is placed in a Network Share and the end users can install the software manually. As organizations are ever-expanding, this method soon becomes unsustainable. This is where software installation tools come in handy.
+What is software installation?
+
+A well-designed software installation tool can pragmatically address the growing number of requests through an automated software installation tool. The software deployment module equips you with easy-to-use and user-friendly tool that provides effortless automated software installation in Windows, Mac and Linux environment. This is extremely advantageous considering the amount of time and energy saved on large-scale deployments of numerous software. Furthermore, all this can be done from a central location.
+
+How to install a software on a user's computer?
+
+    Add Software Package
+        Add the software package.
+        You can either use the predefined templates, or manually upload the software installation files.
+        Skip to step 3 if you're installing software using predefined templates.
+    How to add software package in Windows - ManageEngine
+    Manual Software Package Addition
+        Open the Software Deployment tab, click Add Packages.
+        Provide a suitable name for the software package, select the Package Type and the License Type, and locate the software installation files.
+        Additionally, you can configure the pre- and post-deployment activities to be performed before and after the software installation.
+    Manual software package - ManageEngine
+    Adding an EXE software package
+        Enter the silent switch commands if the software installation file is an EXE, and click Add Package. Refer this document to learn more.
+    Adding a software package - ManageEngine
+    Computer or User configuration
+        If the configuration should be applied to a particular machine and to all the users in that machine, choose Computer Configuration.
+        If the configuration should be applied to one specific user who uses different machines then choose User Configuration.
+        In the Software Deployment tab, select the package and decide whether it's a computer or user configuration.
+    How to install software in Windows - ManageEngine
+    Deployment Policy
+        Configure the Deployment Settings by selecting a Deployment Policy. Deployment Policy allows administrators to decide when the software installation should take place.
+    How to install software in Windows - ManageEngine
+    Define Target
+        Choose the target and deploy the software configuration. The targent can be a domain, OU, a specific computer or a custom group.
+        Refer to this document to learn more about defining the target for software configurations.
+
+Now, in this software guide, we will look at the various scenarios that IT administrators frequently encounter while remotely installing a software. Furthermore, this software installation guide will explain how IT administrators can handle those scenarios.
+Contents:
+
+    Install software on a roaming user's computer
+    Conserve network bandwidth
+    Install licensed software silently
+    Uninstall the previous version of a software and install the new version
+    Check if the software is already installed
+    Automate software installation
+    Open-source software installation requests 
+
+How can I install the software on a roaming user's computer?
+
+    Defining the Target
+        After creating the software package, select the remote user as the target in software configuration. This instructs the agent to access the software installation files from the HTTP Repository.
+        software installation targets - ManageEngine 
+    Silent Software Installation
+        Subsequently, the software installation process will begin and it will be installed silently.
+
+How can I conserve network bandwidth while installing software?
+
+The software installation files are accessed either from a Network Share or HTTP Repository.
+
+    Network Share
+        Network Share is used whenever a software installation is carried out in a Local Area Network.
+    HTTP Repository
+        HTTP Repository is used for Wide Area Network and Remote Users for software installation.
+
+How to install a software silently with a License Key?
+
+While configuring a software pacakge, especially an executable, you can enter the silent switch commands.
+
+    Add Software Package
+        Open the Software Deployment tab, and click Add Packages.
+    Choose Package Type
+        Now, select the package type as either MSI or EXE.
+    Silent Switch Commands
+        Scroll down. For MSI, the silent switch commands will be automatically configured.
+        For EXE, the silent switch commands have to be entered manually.
+        Refer this page to view the silent switch commands for various software, before installing software.
+    Enter License Key
+        Subsequently, append the License Key with the silent swith command.
+    Define the software configuration
+        Add the package and define a software configuration.
+    Deploy software configuration
+        After deploying the software configuration, the software installation will begin silently.
+
+How can I uninstall the previous version of software and install the latest version?
+
+This is a scenario often faced by administrators. The older version of software prevents the installation of the new version of the software. You can check whether a software has already been installed on a computer and if so, uninstall the previous version of that particular software before installing the new software version. Steps:
+
+    Add software package
+        Open the Software Deployment tab, and click Add Packages.
+    Select: Uninstall Software
+        Under Pre-Deployment Activites, choose Uninstall Software and enter the version number of the software here.
+        Uninstall older version of the software during software installation - ManageEngine 
+
+The older version of the software will be uninstalled before installing the new one.
+
+How can I check if software is already installed on a target computer?
+
+    Add Software Package
+        Open the Software Deployment tab, and click Add Packages.
+    Select: Check Software
+        Under Pre-Deployment Activites, choose Check Software and enter the software name.
+        Check software during software installation - ManageEngine 
+
+After including the Check Software Pre-Deployment Activity in the software package, the software installation will be skipped for those computers that already have the software.
+
+How to automate software installation?
+
+While defining the software configuration, users can choose the target and the applicable deployment policy.
+
+    Deployment Policy
+        In deployment policy, the time and the frequency of the software installation can be chosen. Learn more.
+    Define Target
+        In the target section, a particular custom group can be chosen. Whenever a new computer or user is added to the group, the software will automatically be installed on the computer or user respectively. Learn more.
+
+How can I handle open-source software installation requests?
+
+Administrators are bombarded with open-source software installation requests. In order to reduce the frequency of these requests, we let you configure the Self Service Portal. As the very name implies, the end users can open the portal and install the software when required.
+
+    For administrators:
+        Navigate to: Software Deployment->Deployment->Self Service Portal.
+        Add Software Packages Drag and drop the open-source software packages that end users frequently request.
+        Define the Target.
+    For end users:
+        Agent Tray Right click the agent tray icon.
+        Choose Self Service Portal.
+        Choose the preferred software and click Install.
+
+Additionally, users can directly raise software installation requests through the Self Service Portal for licensed software.
+
+Automated software installation tool - ManageEngine
+
+It is highly recommended before installing software that administrators run an inventory scan so as to check all the installed software are license compliant.

@@ -1,0 +1,38 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+'' the situations are productive on the basis of laws of the alphabet 
+'' cil on the nazal base this sums up the constructor in which the 
+'' geometry of honey develops.
+
+Public Sub NazalCil(ByRef alphabet As Array, ByRef productive As Components, ByRef honey As Application)
+  
+  Let alphabet = [11, 12, 13], [21, 22, 23], [31, 32, 33], [41, 42, 43]
+  Let productive = Components.Count
+  Let honey = Application.ParentHandle
+  
+  If alphabet.ReadOnly Then 
+    Print "see this on nazal very good very nice" + 
+          "to do a will fosters In which girls are over" +
+          "my nazal doing wonder builder."
+  Else 
+  alphabet.ReadOnly        
+  Endif
+  
+  If productive.Count Then 
+    Print "improving technology about driving double quotes and single quotes to make builder"
+  Else 
+  productive.Count  
+  Endif
+  
+  If honey.ParentHandle Then 
+    Print "be the best friend in the world that your friends" +
+    "never hate you about particular cases of your base" +
+    "in mathematica, eat a guava or smell it."
+  Else 
+  honey.ParentHandle  
+  Endif
+  
+End

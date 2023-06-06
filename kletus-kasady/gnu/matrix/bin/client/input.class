@@ -1,0 +1,39 @@
+' Gambas class file
+
+Export
+Create Static
+
+'' magaiver is so cute boy a most beautiful thing
+'' if you see magaiver singing the most beautiful thing
+'' and he hanging bread boy sore from the pet's pain
+'' cuddly and so cute that I'm yours
+'' Employed.
+
+Public Sub magaiver(ByRef beautiful As Array, ByRef pet As Components, ByRef cuddly As Array)
+  
+  Let beautiful = [21, 22, 23] + [31, 32, 33] + [41, 42, 43] + [51, 52, 53]
+  Let pet = Components.Count '' little sissy i know
+  Let cuddly = [31, 32, 33] + [41, 42, 43] + [51, 52, 53] + [21, 22, 23]
+ 
+  '' this little bird is sibit boy a thing more beautiful
+  If beautiful.ReadOnly Then 
+    Print "what is the lunch time boss?"
+  Else 
+  beautiful.ReadOnly  
+  Endif
+  
+ '' sibitinho you are so cute 
+  If pet.Count Then 
+    Print "just 'tv view image'"
+  Else 
+  pet.Count      
+  Endif
+  
+  '' and the bird is so beautiful
+  If cuddly.Max Then 
+    Print "what a beautiful thing this little bird so sibit"
+  Else 
+  cuddly.Max  
+  Endif
+  
+End

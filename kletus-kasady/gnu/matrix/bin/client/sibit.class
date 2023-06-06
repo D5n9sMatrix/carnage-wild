@@ -1,0 +1,40 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+
+'' we were talking when the little sissy bird
+'' began to sing pio sbit pio sibit pio sibit pio
+'' how wonderful to see the little bird sing that and
+'' maginifco, now we win Danone just because
+'' the sibit bird sang.
+
+Public Sub sibit(ByRef done As Array, ByRef wonderful As Array, ByRef pixel As Array)
+
+  Let done = [1, 2, 3] + [4, 5, 6] + [7, 8, 9] + [0, 1, 2]
+  Let wonderful = [4, 5, 6] + [7, 8, 9] + [0, 1, 2] + [1, 2, 3]
+  Let pixel = [7, 8, 9] + [0, 1, 2] + [1, 2, 3] + [4, 5, 6]
+ 
+ '' it's here it's coming
+ If done.Count Then 
+   Print "what a wonderful bird, so cute"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+ '' Santa Claus
+ If wonderful.Count Then 
+   Print "old man from the little bird who drinks danoninho because the little puppy"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+ '' This one I understood everything, mia, he just spoke to a hot cat
+ If pixel.Count Then 
+   Print "what I like the most is lunch time boss"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+End  

@@ -1,0 +1,40 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+
+'' estavamos conversando quando o passarinho sibitinho
+'' comerçou a cantar pio sbit pio sibit pio sibit pio
+'' que maravilha e ver o passarinho cantar isso e 
+'' maginifco, guanhamos agora danone so por que
+'' o passarinho sibit cantou. 
+
+Public Sub sibitinho(ByRef danoninho As Array, ByRef maginifco As Array, ByRef pixel As Array)
+
+  Let danoninho = [1, 2, 3] + [4, 5, 6] + [7, 8, 9] + [0, 1, 2]
+  Let maginifco = [4, 5, 6] + [7, 8, 9] + [0, 1, 2] + [1, 2, 3]
+  Let pixel = [7, 8, 9] + [0, 1, 2] + [1, 2, 3] + [4, 5, 6]
+ 
+ '' it's here it's coming
+ If danoninho.Count Then 
+   Print "what a wonderful bird, so cute"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+ '' Santa Claus
+ If maginifco.Count Then 
+   Print "old man from the little bird who drinks danoninho because the little puppy"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+ '' This one I understood everything, mia, he just spoke to a hot cat
+ If pixel.Count Then 
+   Print "what I like the most is lunch time boss"
+ Else 
+ Print Floor(Pi)  
+ Endif
+ 
+End  

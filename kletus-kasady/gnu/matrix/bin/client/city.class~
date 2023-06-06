@@ -1,0 +1,33 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+'' This means that whatever we do, we will give an account to God, 
+'' he being our judge, forming wisdom and authority.
+
+Private account As Array
+Public Sub Gods(ByRef will As Array, ByRef judge As Done, ByRef wisdom As Done)
+  
+    Let will = [1, 2, 3], [4, 5, 6], [7, 8, 9], [0, 1, 2]
+    Let judge = done.friend
+    Let wisdom = done.light
+    
+    If will.Length Then 
+      Print "what a delicious pineapple to eat a piece"
+    Else 
+    will.Length  
+    Endif
+  
+    If judge.friend Then 
+      Print "wow, you are so sincere that you can see it in your eyes"
+    Else 
+    judge.friend  
+    Endif
+    
+    If wisdom.light Then 
+       Print "if you go to the end i will give you eternal life"
+    Else 
+    wisdom.light   
+    Endif
+End

@@ -1,0 +1,37 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+
+'' Great friend of mine the cutest nephew in the world 
+'' my most accurate sibitinho.
+
+Public Sub friend(ByRef sibit As Array, ByRef nephew As Array, ByRef world As Array)
+  
+  Let sibit = [11, 12, 13] + [21, 22, 23] + [31, 32, 33] + [41, 42, 43]
+  Let nephew = [21, 22, 23] + [31, 32, 33] + [41, 42, 43] + [11, 12, 13]
+  Let world = [31, 32, 33] + [41, 42, 43] + [11, 12, 13] + [21, 22, 23]
+  
+  '' have you done your homework?
+  If sibit.Data Then 
+    Print "long long fofoinho!"
+  Else 
+  sibit.Data  
+  Endif
+  
+  '' what's up sibitinho and the magaiver
+  If nephew.Data Then 
+    Print "and now bullfinch?"
+  Else 
+  nephew.Data  
+  Endif
+  
+  '' soup is only available at school
+  If world.Data Then 
+    Print "three month doing homework"
+  Else 
+  world.Data  
+  Endif  
+  
+End

@@ -1,0 +1,37 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Sibitbird
+
+'' Grande amigo meu o sibitinho mais fofo do mundo
+'' o meu mais preciso sibitinho.
+
+Public Sub fofo(ByRef sibitinho As Array, ByRef preciso As Array, ByRef amigo As Array)
+  
+  Let sibitinho = [11, 12, 13] + [21, 22, 23] + [31, 32, 33] + [41, 42, 43]
+  Let preciso = [21, 22, 23] + [31, 32, 33] + [41, 42, 43] + [11, 12, 13]
+  Let amigo = [31, 32, 33] + [41, 42, 43] + [11, 12, 13] + [21, 22, 23]
+  
+  '' have you done your homework?
+  If sibitinho.Data Then 
+    Print "long long fofoinho!"
+  Else 
+  sibitinho.Data  
+  Endif
+  
+  '' what's up sibitinho and the magaiver
+  If preciso.Data Then 
+    Print "and now bullfinch?"
+  Else 
+  preciso.Data  
+  Endif
+  
+  '' soup is only available at school
+  If amigo.Data Then 
+    Print "three month doing homework"
+  Else 
+  amigo.Data  
+  Endif  
+  
+End

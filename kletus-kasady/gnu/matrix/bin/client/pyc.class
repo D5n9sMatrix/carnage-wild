@@ -1,0 +1,40 @@
+' Gambas class file
+
+Export
+Create Static
+Inherits Easylight
+
+'' Bath slowly in the cat, if cat makes meial
+'' he's supreme, if he pees he'll bark
+'' if you're talking to a cat, don't command yourself
+'' he has the big head, good cat and the scianes
+'' to talk he doesn't measure effort.
+
+Public Sub CatView(ByRef suprems As Args, ByRef good As Args, ByRef big As Args)
+  
+  Let suprems = Args.All("view")
+  Let good = Args.Count("view")
+  Let big = Args.Max("view")
+  
+  '' the bag smells strongly of fanta
+  If suprems.All Then 
+    Print "come in, sit down and let's talk, Siamese cat spares no effort to talk"
+  Else 
+  suprems.All  
+  Endif
+  
+  '' honey I arrived
+  If good.Count Then 
+    Print "twenty chicken only for mind in the circus"
+  Else 
+  good.Count  
+  Endif
+  
+  '' well it's in God's hurry
+  If big.Max Then 
+    Print "the horse is already showing its teeth, this is fanta"
+  Else 
+  big.Max  
+  Endif
+  
+End
